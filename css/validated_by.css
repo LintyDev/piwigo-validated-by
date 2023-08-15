@@ -1,0 +1,59 @@
+.contentValidatedBy {
+    display: inline-flex;
+}
+#validated_by {
+    width: calc(100% - 15px);
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#colLeft {
+    background-color: #404244;
+    border-radius: 20px;
+}
+#colLeft img {
+    border-radius: 20px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+#colRight {
+    margin-right: 30px;
+}
+#colLeft p {
+    margin: 20px;
+}
+.col {
+    max-width: 50%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.colForm {
+    width: 100%;
+}
+.infosError {
+    color: #b8feee;
+    background-color: #a45050;
+    border-left: 4px solid #b8feee;
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+    font-weight: bold;
+    min-height: 54px;
+}
+.validatedBadge{
+	padding: 8px 10px;
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 12px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.25);
+	margin: 0 10px;
+}
+.validatedBadge.danger{
+	background: #DA605B;
+	color: whitesmoke;
+}
+.validatedBadge.success{
+	background: #41a14f;
+	color: whitesmoke;
+}
