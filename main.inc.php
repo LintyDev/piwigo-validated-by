@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Validated By
-Version: 1.0
+Version: 1.1
 Description: Permet d'associer un paramètre "validated_by" à une photo.
 Plugin URI: http://future-lien-github.com
 Author: Willy `Linty` D
